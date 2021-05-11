@@ -159,3 +159,28 @@ body {
 .contenedor .controles .btn_borrar:active {
 	background-color: #400;
 }
+@media screen and (max-width: 500px){
+	.contenedor {
+		grid-template-columns: 1fr;
+	}
+	.contenedor .titulo {
+		grid-column: 1;
+	}
+	.contenedor .contenedor_salidas .grupo_salida {
+		display: block;
+	}
+	.contenedor .contenedor_salidas .titulo {
+		display: block;
+		width: 100%;
+	}
+	.contenedor .contenedor_salidas .salida {
+		display: block;
+		width: 100%;
+	}
+	.contenedor .contenedor_salidas {
+		grid-column: 1;
+	}
+	.contenedor .controles {
+		grid-column: 1;
+	}
+}
