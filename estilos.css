@@ -76,6 +76,7 @@ body {
 	font-size: 1.2rem;
 	color: #111;
 	transition: all 150ms ease;
+	outline: none;
 }
 .contenedor .controles .btn:hover {
 	background-color: #088;
@@ -151,6 +152,7 @@ body {
 	width: 80px;
 	background-color: #aaa;
 	color: #000;
+	outline: none;
 }
 .contenedor .controles .btn_borrar:hover {
 	background-color: #700;
